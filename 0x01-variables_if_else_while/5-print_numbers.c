@@ -1,17 +1,16 @@
 #include <stdio.h>
 
-
 /**
- * main - program that prints the single digit of base 10 numbers
- *
- * Return: Always 0.
+ * main - a program that prints single base 10 numbers
+ * Return: 0
  */
 
 int main(void)
 {
-	for (int i = 0; i <= 9; i++)
-	{
-	printf("%d\n", i);
-	}
+	int i;
+
+	for (i = 0; i < 10; i++)
+	putchar(i);
+	putchar('\n');
 	return (0);
 }
