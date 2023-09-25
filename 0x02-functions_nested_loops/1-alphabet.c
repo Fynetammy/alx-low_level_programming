@@ -4,6 +4,7 @@
  * main - a function that prints alphabets in lowercase
  * but since we can only use two _putchar  in order to prints
  * we will be using a loop
+ * Return: 0
  */
 
 void print_alphabet(void)
